@@ -1,7 +1,11 @@
-int main(int argc, char const *argv[])
+#include <stdio.h>
+
+int main()
 {
-    printf("");
-    printf("Hello World");
+    int a,b;
+    int a = 5;
+    int b = 6;
+    printf("Hasil a + b = %d",a+b);
     return 0;
 }
 
